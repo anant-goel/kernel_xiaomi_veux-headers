@@ -10,8 +10,7 @@ lemonadep-19815-overlay-t0.dtbo-base := lahaina.dtb lahaina-v2.dtb lahaina-v2.1.
 lemonade-19825-overlay.dtbo-base := lahaina.dtb lahaina-v2.dtb lahaina-v2.1.dtb
 lemonadev-2080a-overlay.dtbo-base := lahaina.dtb lahaina-v2.dtb lahaina-v2.1.dtb
 else
-dtb-$(CONFIG_ARCH_LAHAINA) +=
-        lemonadep-overlay.dtb
+dtb-$(CONFIG_ARCH_LAHAINA) += lemonadep-overlay.dtb
 endif
 
 always          := $(dtb-y)
